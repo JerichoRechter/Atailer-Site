@@ -1,0 +1,28 @@
+.navbar {
+    
+    font-size: 20px;
+    letter-spacing: 5px;
+    background-color: black;
+    border-bottom-color: gold;
+}
+
+
+
+.profileButton {
+    padding:10px;
+    margin-left: 30px;
+    margin-top: 18px;
+    background-color: blueviolet;
+  }
+
+.navbar-brand{
+    font-size: 30px;
+    margin-top: 10px;
+    color: goldenrod;
+    font: italic;
+}
+
+
+.navbar-item{
+    color: goldenrod;
+}

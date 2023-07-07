@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a  id="home" [routerLink]="['']"class="strokeme navbar-brand">KASAR</a>
+        
+      </div>
+        <ul class="nav navbar-nav navbar-right">
+          
+          <li id="pricing"><a class="navbar-text" [routerLink]="['/pricing']">Pricing</a></li>
+          <li id="about"><a class="navbar-text" [routerLink]="['/about']">About Me</a></li>
+          <li id="contact"><a class="navbar-text" [routerLink]="['/faq']">FAQ</a></li>
+          <li id="user"><button  class="profileButton btn  btn-warning glyphicon glyphicon-user"[routerLink]="['/profile']">My Profile</button></li>
+        </ul>
+    </div>
+  </nav> 
+  
